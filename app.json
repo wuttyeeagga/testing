@@ -1,0 +1,51 @@
+{
+  "expo": {
+    "name": "Ship Testing",
+    "slug": "ship-testing",
+    "scheme": "untitled-app",
+    "description": "A Shipping App",
+    "privacy": "unlisted",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "default",
+    "icon": "./assets/app/icon.png",
+    "splash": {
+      "image": "./assets/app/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#00CC9A"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.draftbit.untitledapp",
+      "buildNumber": "1.0.0",
+      "infoPlist": {},
+      "usesIcloudStorage": false,
+      "config": {
+        "usesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "versionCode": 1,
+      "package": "com.draftbit.untitledapp",
+      "permissions": [],
+      "adaptiveIcon": {}
+    },
+    "androidStatusBar": {},
+    "androidNavigationBar": {},
+    "web": {
+      "themeColor": "#000000"
+    },
+    "notification": {
+      "androidMode": "default"
+    },
+    "extra": {
+      "eas": {}
+    }
+  }
+}
